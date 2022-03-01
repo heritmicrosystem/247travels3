@@ -165,7 +165,7 @@ const PaymentCustom = () => {
                           customerId: window.localStorage.getItem('customerId'),
                           flightOrderId: window.localStorage.getItem('flightOrderId'),
                           amount: setSelectedFlightOffer.price.grandTotal,
-                          callbackUrl: 'http://live.247travels.com/paymentVerify'
+                          callbackUrl: 'http://test.247travels.com/paymentVerify'
                         }).then(result => {
                           // TODO: Remove log
                           console.log('Payment Initialize Result:', result);

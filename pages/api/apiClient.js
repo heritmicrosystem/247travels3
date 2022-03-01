@@ -8,7 +8,7 @@ import {
 import ApiRoutes from "./apiRoutes";
 import https from "https";
 
-const BASE_URL = ApiRoutes.BASE_URL_LIVE;
+const BASE_URL = ApiRoutes.BASE_URL_TEST;
 
 const httpsAgent = new https.Agent({
   rejectUnauthorized: false,
