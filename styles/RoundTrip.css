@@ -1,0 +1,18 @@
+.antd-checkbox-custom-booking > span{
+    color: #0043a4;
+}
+
+
+.ant-checkbox-inner{  
+    border-radius: 0;
+    height : 1.5em;
+    width:1.5em;
+}
+
+span.ant-modal-close-x{
+    display: none;
+}
+
+.ant-spin-dot-item{
+    background-color: orange;
+}

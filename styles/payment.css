@@ -1,0 +1,37 @@
+.pay-btn{
+    background-color:orange;
+    color: white;
+    height: 40px;
+    width: 100%;
+    
+}
+
+.pay-btn:hover{
+    background-color:#0043a4;
+    color: white;
+    height: 40px;
+}
+
+.pay-btn:focus {
+    color: #fff;
+    background-color: #0043a4;
+}
+
+.bankAccountWrapper {
+    padding: 20px;
+    border-left: 4px solid orange;
+    font-size: 15px;
+    background-color: rgba(0, 149, 255, 0.102);
+    border-radius: 3px;
+}
+
+.generatedTotal{
+    display:flex;
+    flex-direction:column;
+    border: 1px solid #0043a4;
+    padding: 1rem;
+    width: 65%;
+    border-left: 3px solid orange;
+    font-weight: 600;
+    color: grey;;
+}

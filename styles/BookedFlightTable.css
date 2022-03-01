@@ -1,0 +1,46 @@
+.table-bordered>:not(caption)>*>* {
+    border-width: 0 1px;
+    border-color: rgb(0 149 255 / 35%);
+}
+
+tbody {
+    border: 1px solid rgb(0 149 255 / 35%);
+    box-shadow: 0 1px 10px rgb(0 149 255 / 35%);
+}
+
+.td{
+    background-color: #fff !important;
+    text-align: center !important;
+}  
+
+.th{
+    background-color: transparent;
+    color: #0043a4;
+}
+
+.tableHead{
+    background-color:transparent !important;
+}
+.emptyHeader{
+    padding: 0 2rem;
+}
+.leftArrow-wrapper{
+    top: 82px;
+    left: 145PX;
+    border: 1px solid #0043a4;
+    box-sizing: border-box;
+    padding: 0.5rem 1rem;
+    background: #0043a4;
+    border-radius: 5px;
+    box-shadow: 1px 5px 10px 0px;
+}
+.RightArrow-wrapper{
+    top: 82px;
+    border: 1px solid #0043a4;
+    box-sizing: border-box;
+    padding: 0.5rem 1rem;
+    background: #0043a4;
+    border-radius: 5px;
+    box-shadow: 1px 5px 10px 0px;
+    right: -25px;
+}

@@ -1,0 +1,18 @@
+.classCase{
+    border-right: 2px solid orange;
+    justify-content: center;
+    align-items: center;
+}
+
+.dateCase{
+    border-left: 2px solid orange;
+    border-right: 2px solid orange;
+    padding: 0 .2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.travelerNum{
+    justify-content: space-evenly;
+    color : #0043a4;
+}

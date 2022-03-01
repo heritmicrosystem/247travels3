@@ -1,0 +1,14 @@
+.date-wrapper{
+    width: 15%;
+    background: #0043a4;
+    text-align:center;
+    padding: 10px;
+    z-index:1;
+}
+
+/* MEDIA QUERY */
+@media screen and (max-width:1024px) {
+    .date-wrapper{
+        width: 20%
+    };
+}
